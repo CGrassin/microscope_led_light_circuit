@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name C10418)(type Legacy)(uri ${KIPRJMOD}/C10418.lib)(options "")(descr ""))
+  (lib (name Microscope_LED-rescue)(type Legacy)(uri ${KIPRJMOD}/Microscope_LED-rescue.lib)(options "")(descr ""))
+)

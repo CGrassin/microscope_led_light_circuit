@@ -1,0 +1,56 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# C10418
+#
+DEF C10418 J 0 30 Y Y 1 F N
+F0 "J" 1050 300 50 H V L CNN
+F1 "C10418" 1050 200 50 H V L CNN
+F2 "C10418" 1050 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Jing-Extension-of-the-Electronic-Co-LCSC-MICRO-USB-5S-B-Type-horns-High-temperature_C10418.pdf" 1050 0 50 H I L CNN
+F4 "USB Connectors SMD RoHS" 1050 -100 50 H I L CNN "Description"
+F5 "3" 1050 -200 50 H I L CNN "Height"
+F6 "Jing Extension of the Electronic Co." 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "C10418" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 f
+X 1 1 400 -600 200 U 50 50 0 0 w
+X 2 2 500 -600 200 U 50 50 0 0 B
+X 3 3 600 -600 200 U 50 50 0 0 B
+X 4 4 700 -600 200 U 50 50 0 0 B
+X 5 5 800 -600 200 U 50 50 0 0 w
+X MH1 6 0 0 200 R 50 50 0 0 P
+X MH2 7 1200 0 200 L 50 50 0 0 P
+X MH3 8 300 -600 200 U 50 50 0 0 P
+X MH4 9 900 -600 200 U 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# R_POT_SW
+#
+DEF R_POT_SW RV 0 40 Y Y 1 F N
+F0 "RV" -750 0 50 V V C CNN
+F1 "R_POT_SW" -650 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -500 -80 20 1 1 0 N
+C -500 80 20 1 1 0 N
+S 40 100 -40 -100 1 1 10 N
+P 2 0 1 0 -450 0 -500 0 N
+P 2 0 1 0 -350 0 -400 0 N
+P 2 0 1 0 -250 0 -300 0 N
+P 2 0 1 0 -150 0 -200 0 N
+P 2 0 1 0 -50 0 -100 0 N
+P 2 1 1 0 -510 -60 -570 60 N
+P 2 1 1 0 100 0 60 0 N
+P 4 1 1 0 45 0 90 20 90 -20 45 0 F
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+X ~ 3 0 -150 50 U 50 50 1 1 P
+X ~ 4 -500 -200 100 U 50 50 1 1 P
+X ~ 5 -500 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
